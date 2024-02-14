@@ -11,9 +11,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #1F2937;
-  padding-right: 10%;
-  padding-left: 10%;
-  padding-bottom: 25px;
+  padding: 20px 10%;
 }
 
 .logo {
@@ -59,11 +57,13 @@ a {
 .left {
   width: 50%;
   padding-right: 20px;
+  color: #F9FAF8;
 }
 
 .left h1 {
   font-size: 48px;
   font-weight: 800;
+  font-style: bolder;
   padding-right: 20px;
 }
 
@@ -82,6 +82,7 @@ a {
 
 button {
   background-color: #3882F6;
+  color: #F9FAF8;
   padding: 8px 40px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
@@ -118,4 +119,21 @@ button {
 
 .box {
   max-width: 150px;
+}
+
+/* Quote section */
+.quote {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  color: #1F2937;
+  padding: 100px 150px;
+}
+
+.quote-text {
+  font-style: italic;
+}
+
+.quote-signature {
+  font-weight: bolder;
+  text-align: right;
 }
